@@ -1,0 +1,24 @@
+.cardLists{
+    z-index: 10;
+    padding: 2% 6%;
+    h1{
+        padding: 10px 0;
+    }
+    .cards{
+
+        display: flex;
+        justify-items: center;
+        gap: 10px;
+        overflow-x: scroll;
+
+        .card{
+            img{
+                border-radius: 15px;
+            }
+
+        }
+    }
+    .cards::-webkit-scrollbar{
+        display: none;
+    }
+}
